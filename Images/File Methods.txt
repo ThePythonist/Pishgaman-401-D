@@ -1,0 +1,21 @@
+Methods :
+
+"r" => read only , age vojod nadashte bashe error mide !
+"r+" => hamon "r" be ezafe ghabeliat neveshtan ro ham mide 
+"w" => write only , age vojod nadashte bashe misaze va age vojod dashte bashe ono delete mikone az aval misaze !
+"w+" => hamon "w" be ezafe ghabeliat khondan ro ham mide
+"a" => write only , age vojod nadashte bashe misaze va age vojod dashte bashe mire akhare file
+"a+" => hamon "a" be ezafe ghabeliat khondan ro ham mide
+
+( nokte : dar halat "r" va "w" pointer mire avale file - dar halat "a" pointer mire akhare file )
+
+
+f.read() : kole file ra mikhanad
+f.write() : baraye neveshtan be kar miravad
+f.tell() : neshan midahad pointer koja gharar darad
+f.seek() : jaye pointer ra tayin mikonad
+f.close() : file ra mibandad
+f.readline() : khat be khat mikhanad
+f.readlines() : tamam khotot ra mikhanad
+f.name : name file ra namayesh midahad
+f.mode : dastresi ra namayesh midahad
